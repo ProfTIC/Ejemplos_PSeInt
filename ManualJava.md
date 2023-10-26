@@ -4,7 +4,7 @@
 - [Mostrar un valor por pantalla ](#mostrar-un-valor-por-pantalla)
 - [Lectura de datos ](#lectura-datos)
 - [Operadores ](#operadores)
-\pagebreak
+
 # Mostrar un valor por pantalla <a name="mostrar-un-valor-por-pantalla"></a>
 
 Para mostrar un mensaje por pantalla en java usa la siguiente instrucción:
