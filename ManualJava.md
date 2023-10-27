@@ -4,8 +4,8 @@
 - [Mostrar un valor por pantalla ](#mostrar-un-valor-por-pantalla)
 - [Lectura de datos ](#lectura-datos)
 - [Operadores ](#operadores)
+- [Funciones matemáticas] (#clase-math)
 
-\pagebreak
 
 # Mostrar un valor por pantalla <a name="mostrar-un-valor-por-pantalla"></a>
 
@@ -134,4 +134,20 @@ También se podría hacer usando dos variables de tipo entero:
     int num2 = 2;
     resultado =(float)num1/num2;
     System.out.println(resultado);
+```
+
+
+# Funciones matemáticas <a name="libreria-math"></a>
+
+En Java las operaciones matemáticas vienen definidas en la librería Math. Para poder usarlas, simplemente escribimos Math. y el nombre de la función correspondiente. Por ejemplo
+
+```java
+    absoluto = Math.abs(-4); // Obtiene el valor absoluto
+    seno = Math.sin(45.0); // Se obtiene el seno de 45
+    potencia = Math.pow(2,5); // Se obtiene el resultado de 2^5
+```
+
+Además de las funciones matemáticas, también tenemos constantes predefinidas como, por ejemplo, PI: 
+```java
+    System.out.println("El valor de PI es: ", Math.PI);
 ```
