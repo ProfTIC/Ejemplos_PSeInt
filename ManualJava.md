@@ -4,7 +4,7 @@
 - [Mostrar un valor por pantalla ](#mostrar-un-valor-por-pantalla)
 - [Lectura de datos ](#lectura-datos)
 - [Operadores ](#operadores)
-- [Funciones matemáticas] (#clase-math)
+- [Funciones matemáticas](#libreria-math)
 
 
 # Mostrar un valor por pantalla <a name="mostrar-un-valor-por-pantalla"></a>
