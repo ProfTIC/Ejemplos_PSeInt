@@ -62,3 +62,71 @@ En la siguiente tabla tenemos un resumen de la traza del algoritmo:
 | 7 | i++ | 2 | | |
 | 8 | ¿i<2 | 1 |Como no se cumple la condición, la ejecución del bucle finaliza| |
 
+# While (mientras) <a name="while"></a>
+
+Este tipo de bucle se ejecuta mientras se cumpla la condición establecida en la instrucción while. Por tanto, las instrucciones del bucle se ejecutarán mientras la condición de parada sea cierta
+
+La sintaxis es la siguiente: 
+
+```java
+    
+   while (condición_parada) {
+
+        // Si solo hay una única instrucción no es necesario poner las llaves {}
+
+    }
+
+   
+```
+
+
+Por ejemplo:
+
+```java
+
+    int i=0;
+    
+    while (i < 2) {
+
+        System.out.println("El valor de la variable i es: " +i);
+
+        i++;
+    }
+
+```
+
+El código anterior es equivalente al bucle for que hemos visto. En este caso, las instrucciones del bucle se ejecutan mientras se cumpla que i<2. La sentencia i++ actualiza el valor del contador en cada ejecución del bucle
+
+# Do-While (hasta) <a name="dowhile"></a>
+
+Este tipo de bucle es parecido al anterior, pero la condición de parada se comprueba después. Es decir, si usamos una estructura do-while el cuerpo del bucle se **ejecutará al menos una vez**. 
+
+La sintaxis es la siguiente: 
+
+```java
+
+    do {
+
+        // Instrucciones
+    
+    } while (condición_parada) {
+
+```
+
+
+Por ejemplo:
+
+```java
+
+    int i=0;
+
+    do {
+
+        System.out.println("El valor de la variable i es: "+i);
+
+        i++;
+    
+    } while (i < 2);
+
+```
+Este código es equivalente a los dos ejemplos de los bucles anteriores. La diferencia con la estructura while es que la condición se evalúa después de ejecutar una vez las sentencias del bucle. En este caso, independientemente del valor de i, la instrucción System.out.println y la de i++ se ejecutarán al menos una vez
